@@ -29,8 +29,8 @@ let pessoa = {
     idade: "39",
     ativo: true
 };
-// console.log(pessoa.nome);
-// console.log(pessoa["idade"]);
+console.log(pessoa.nome);
+console.log(pessoa["idade"]);
 //----------------------------------------------------------------
 // EXERCICIO
 
@@ -38,3 +38,4 @@ let pessoa = {
 function clear() {
     return console.clear();
 }
+// console.log(clear());
