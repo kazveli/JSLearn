@@ -3,14 +3,14 @@
 let nome = "Kaique"; // variavel, pode mudar
 const idade = 25; // constante, não muda
 var cidade = "SP"; // depreciada, nao use
-// console.log('Meu nome é ',nome,' e tenho ',idade,' anos.');
+console.log('Meu nome é ',nome,' e tenho ',idade,' anos.');
 //--------------------------------------------------------------
 // FUNÇÕES
 
 function hello(nome) {
     return "Olá, "+nome+"!";
 }
-// console.log(hello("Kaique"));
+console.log(hello("Kaique"));
 
 const soma = (a, b) => a + b; // Arrow version
 // console.log(soma(3,5));
@@ -18,9 +18,9 @@ const soma = (a, b) => a + b; // Arrow version
 // ARRAYS (listas)
 
 let frutas = ['maçã', 'banana', 'laranja'];
-// console.log(frutas[0]);
+console.log(frutas[0]);
 frutas.push('uva'); // Adiciona à lista
-// console.log(frutas.length);
+console.log(frutas.length);
 //---------------------------------------------------------------
 // OBJETOS
 
@@ -38,4 +38,4 @@ console.log(pessoa["idade"]);
 function clear() {
     return console.clear();
 }
-// console.log(clear());
+//console.log(clear());

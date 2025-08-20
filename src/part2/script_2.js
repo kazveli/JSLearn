@@ -6,29 +6,29 @@ let json_text = `{
     "idade": 39
 }`;
 let obj = JSON.parse(json_text); // Conteúdo JSON para Objeto
-//console.log(obj.nome);
+console.log(obj.nome);
 
 // stringify
 let pessoa = { nome: "Kaique", idade: 36};
 let texto = JSON.stringify(pessoa);
-//console.log(texto);
+console.log(texto);
 //-------------------------------------------------------------
 // ARRAYS METHODS
 
 // map() - manipula um mapa do array com alguma expressao
 let numeros = [1,2,3]
 let multiplica = numeros.map(n => n * 2);
-//console.log(multiplica);
+console.log(multiplica);
 
 // filter() - filtra a saida com uma expressao
 let idades = [15,22,18,30];
 let maiores = idades.filter(jotinha => jotinha >= 18);
-//console.log(maiores);
+console.log(maiores);
 
 // reduce() - reduz á 1 item
 let valores = [10,20,30];
 let soma = valores.reduce((acumulador, atual) => acumulador + atual, 0);
-//console.log(soma);
+console.log(soma);
 
 /* example
 array.reduce((acumulador, valorAtual, indice, arrayOriginal) => {
