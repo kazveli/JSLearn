@@ -1,2 +1,2 @@
 # JSLearn
-Aprendizado rápido e estratégico
+Aprendizado rápido e estratégico de Javascript
